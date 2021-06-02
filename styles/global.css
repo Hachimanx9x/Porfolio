@@ -1,0 +1,21 @@
+body,
+html,
+body > first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+.o-overflow {
+  height: 50%;
+  overflow: hidden;
+}
+.o-overflow .card-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+.o-overflow .card-img-top:hover {
+  transform: scale(1.8);
+}
+#nprogress .bar {
+  background: rgba(17, 17, 85, 0.678) !important;
+}
