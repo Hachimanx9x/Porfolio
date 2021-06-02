@@ -4,8 +4,13 @@ export default function Header({ img, name, description, position }) {
       <div className="col-md-12 ">
         <div className="card card-body bg-secondary text-light">
           <div className="row">
-            <div className="col-md-4 d-flex align-items-center">
-              <img className="img-fluid" src={`/images/${img}`} alt="foto" />
+            <div className="col-md-4 d-flex align-items-center justify-content-center">
+              <img
+                className="img-fluid"
+                src={`/images/${img}`}
+                alt="foto"
+                style={{ maxHeight: "250px" }}
+              />
             </div>
             <div className="col-md-8">
               <h1>{name}</h1>

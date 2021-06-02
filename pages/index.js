@@ -8,14 +8,9 @@ export default function Index() {
     <Layout>
       {/*Header card */}
       <Header
-        img="monokuma.jpg"
+        img="foto.png"
         name="Diego Bolaños"
-        description=" Soy un ingeniero multimedia egresado de la una universidad
-          autónoma de occidente, durante mi época de estudiante mis
-          estudios se centraron en la web y sus beneficios por lo que
-          durante mi época estudiantil, estudie y prepare para este
-          medio con un abanico de habilidades y herramientas que me
-          ayudan a desenvolverme dentro de este entorno."
+        description="Soy un ingeniero multimedia egresado de la una universidad autónoma de occidente, durante mi época de estudiante mis estudios se centraron en la web y sus beneficios por lo que durante mi época estudiantil, estudie y prepare para este medio con un abanico de habilidades y herramientas que me ayudan a desenvolverme dentro de este entorno."
         position="Web Developer"
       />
       {/*Second section */}
