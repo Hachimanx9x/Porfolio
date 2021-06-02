@@ -53,7 +53,7 @@ export const Projects = [
   {
     name: "Proyecto Softmedia",
     description:
-      "Este proyecto es una plataforma para la gestion y desarrollo para la preproduccion de un sistema multimedia (correo : correo@gmail.com, contraseña :securePassword)",
+      "Plataforma para la gestion y desarrollo de proyectos(correo : correo@gmail.com, contraseña :securePassword)",
     image: "scream.jpeg",
     demo: "https://demofrontpasantia.herokuapp.com/",
     github: "https://github.com/Hachimanx9x/proyecto-web-threejs",
