@@ -59,11 +59,12 @@ export const Projects = [
     github: "https://github.com/Hachimanx9x/proyecto-web-threejs",
   },
   {
-    name: "React + socket.io",
-    description: "diferentes manejos que se puede tener de socket io con react",
-    image: "sr.png",
-    demo: "https://clientvoice.herokuapp.com/",
-    github: "https://github.com/Hachimanx9x/Test-socketio",
+    name: "Clon de PlayStation Store",
+    description:
+      "Trabajo echo con react para la materia de experiencia para la web",
+    image: "playstore.jpeg",
+    demo: "",
+    github: "https://github.com/Hachimanx9x/Clon_playStore",
   },
   ,
   {
@@ -86,6 +87,13 @@ export const Projects_general = [
     image: "carro.png",
     demo: "https://youtu.be/B0klIdGsoiU",
     github: "",
+  },
+  {
+    name: "React + socket.io",
+    description: "diferentes manejos que se puede tener de socket io con react",
+    image: "sr.png",
+    demo: "https://clientvoice.herokuapp.com/",
+    github: "https://github.com/Hachimanx9x/Test-socketio",
   },
   {
     name: "Vue - Pokedex basica",
