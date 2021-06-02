@@ -18,7 +18,7 @@ export const Experiences = [
   {
     title: "Udemy - Create a 3D multi-player game using THREE.js and Socket.IO",
     start: "Febrero 2019",
-    end: "MArzo 2019",
+    end: "Marzo 2019",
     description:
       "Cursos de threejs donde se tocan elementos de sockets y carga de objetos de 3D de una manera nativa para la web.",
   },
@@ -53,7 +53,7 @@ export const Projects = [
   {
     name: "Proyecto Softmedia",
     description:
-      "Este proyecto es una plataforma para la gestion y desarrollo para la preproduccion de un sistema multimedia",
+      "Este proyecto es una plataforma para la gestion y desarrollo para la preproduccion de un sistema multimedia (correo : correo@gmail.com, contraseña :securePassword)",
     image: "scream.jpeg",
     demo: "https://demofrontpasantia.herokuapp.com/",
     github: "https://github.com/Hachimanx9x/proyecto-web-threejs",
@@ -62,7 +62,7 @@ export const Projects = [
     name: "React + socket.io",
     description: "diferentes manejos que se puede tener de socket io con react",
     image: "sr.png",
-    demo: "",
+    demo: "https://clientvoice.herokuapp.com/",
     github: "https://github.com/Hachimanx9x/Test-socketio",
   },
   ,
@@ -71,8 +71,8 @@ export const Projects = [
     description:
       "Ejemplo de WebGL con el framework de vue, solo tiene soporte para firefox",
     image: "obj3d.png",
-    demo: "https://clientvoice.herokuapp.com/",
-    github: "https://github.com/Hachimanx9x/Test-socketio",
+    demo: "https://youtu.be/4eBTwZCLYuM",
+    github: "https://github.com/Hachimanx9x/vuethree",
   },
 ];
 /*
