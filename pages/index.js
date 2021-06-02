@@ -16,7 +16,7 @@ export default function Index() {
           durante mi época estudiantil, estudie y prepare para este
           medio con un abanico de habilidades y herramientas que me
           ayudan a desenvolverme dentro de este entorno."
-        position="Fullstack Developer (junior)"
+        position="Web Developer"
       />
       {/*Second section */}
       <div className="row py-2 ">
@@ -44,10 +44,12 @@ export default function Index() {
             <div className="card-body">
               <h1>Estudios</h1>
               <ul>
-                {Experiences.map(({ title, end, description }, i) => (
+                {Experiences.map(({ title, start, end, description }, i) => (
                   <li key={i}>
                     <h3>{title}</h3>
-                    <h5>Finalize en el {end}</h5>
+                    <h5>
+                      {start} - {end}
+                    </h5>
                     <p>{description}</p>
                   </li>
                 ))}

@@ -10,11 +10,16 @@ div#__next > div {
   overflow: hidden;
 }
 .o-overflow .card-img-top {
+  height: 100%;
   transform: scale(1);
   transition: all 0.2s ease-in-out;
 }
 .o-overflow .card-img-top:hover {
   transform: scale(1.8);
+}
+.o-card-body-size {
+  min-height: 350px;
+  max-height: 450px;
 }
 #nprogress .bar {
   background: rgba(17, 17, 85, 0.678) !important;

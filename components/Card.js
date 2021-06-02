@@ -1,12 +1,12 @@
 export default function Card({ name, description, image, demo, github }) {
   return (
-    <div className="col-md-4 p-2">
+    <div className="col-md-4 p-2 o-card-body-size ">
       <div className="card h-100">
         <div className="o-overflow ">
           <img className="card-img-top" src={`/images/${image}`} alt="foto" />
         </div>
 
-        <div className="card-body d-flex flex-column justify-content-between">
+        <div className="card-body  d-flex flex-column justify-content-between ">
           <div>
             <h3>{name}</h3>
             <p> {description}</p>
