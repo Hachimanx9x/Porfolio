@@ -60,9 +60,10 @@ export const Projects = [
   ,
   {
     name: "vue js +  Three js",
-    description: "Ejemplo de WebGL con el framework de vue",
-    image: "sr.png",
-    demo: "",
+    description:
+      "Ejemplo de WebGL con el framework de vue, solo tiene soporte para firefox",
+    image: "obj3d.png",
+    demo: "https://clientvoice.herokuapp.com/",
     github: "https://github.com/Hachimanx9x/Test-socketio",
   },
 ];
@@ -73,23 +74,17 @@ export const Projects = [
 export const Projects_general = [
   {
     name: "Carro de jugue",
-    content: "Ejemplo carro de juegue 3d modelado en maya",
-    img: "carro.png",
-    obj3d: undefined,
-    source: "https://youtu.be/B0klIdGsoiU",
+    description: "Ejemplo carro de juegue 3d modelado en maya",
+    image: "carro.png",
+    demo: "https://youtu.be/B0klIdGsoiU",
+    github: "",
   },
   {
-    name: "Carro de jugue",
-    content: "Ejemplo carro de juegue 3d modelado en maya",
-    img: "carro.png",
-    obj3d: undefined,
-    source: "https://youtu.be/B0klIdGsoiU",
-  },
-  {
-    name: "Carro de jugue",
-    content: "Ejemplo carro de juegue 3d modelado en maya",
-    img: "carro.png",
-    obj3d: undefined,
-    source: "https://youtu.be/B0klIdGsoiU",
+    name: "Vue - Pokedex basica",
+    description: "Usa Vue JS para llamar a una api de pokemon",
+    image: "pokemon-logo.png",
+    demo: "",
+    github: "https://github.com/Hachimanx9x/Poken_api",
   },
 ];
+//
