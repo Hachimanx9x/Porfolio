@@ -53,4 +53,6 @@ export default function Github({ user, statusCode }) {
     </Layout>
   );
 }
+/**
+ */
 //www.linkedin.com/in/diego-fernando-bolaños-palma-6a536720b

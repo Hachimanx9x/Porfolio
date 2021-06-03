@@ -102,5 +102,13 @@ export const Projects_general = [
     demo: "",
     github: "https://github.com/Hachimanx9x/Poken_api",
   },
+  ,
+  {
+    name: "Pista de carreras",
+    description: "Video 360 de una pista de carreras modelada en Maya",
+    image: "pista360.PNG",
+    demo: "https://youtu.be/HBnqadj-tB0",
+    github: "",
+  },
 ];
 //

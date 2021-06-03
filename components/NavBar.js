@@ -1,5 +1,12 @@
 import Link from "next/link";
+import { useState } from "react";
 export default function NavBar() {
+  const [avtMenu, setActMenu] = useState(false);
+
+  const hamburger_menu = () => {
+    setActMenu(!avtMenu);
+  };
+
   return (
     <>
       {" "}
@@ -17,10 +24,14 @@ export default function NavBar() {
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={hamburger_menu}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse " id="navbarNav">
+          <div
+            className={`${!avtMenu ? "collapse" : ""} navbar-collapse`}
+            id="navbarNav"
+          >
             <ul className="navbar-nav o-margin-left-auto">
               <li className="nav-item active">
                 <Link href="/Blog">
@@ -39,6 +50,12 @@ export default function NavBar() {
       <style jsx>{`
         .o-margin-left-auto {
           margin-left: auto;
+        }
+
+        @media screen and (max-width: 960px) {
+          .o-margin-left-auto {
+            text-align: center;
+          }
         }
       `}</style>
     </>
