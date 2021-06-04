@@ -4,11 +4,11 @@
 }
 .o-overflow .card-img-top {
   height: 100%;
-  transform: scale(1);
+  transform: scale(1.3);
   transition: all 0.2s ease-in-out;
 }
 .o-overflow .card-img-top:hover {
-  transform: scale(1.8);
+  transform: scale(1);
 }
 .o-card-body-size {
   min-height: 350px;
