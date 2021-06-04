@@ -3,7 +3,7 @@ export const Skills = [
   { skill: "React JS", percentage: 60 },
   { skill: "Next JS", percentage: 60 },
   { skill: "Node Js", percentage: 85 },
-
+  { skill: "Golang", percentage: 50 },
   { skill: "Vue JS", percentage: 50 },
   { skill: "Nuxt JS", percentage: 50 },
   { skill: "Figma", percentage: 75 },

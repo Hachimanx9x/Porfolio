@@ -10,7 +10,9 @@ export default function Index() {
       <Header
         img="foto.png"
         name="Diego Bolaños"
-        description="Soy un ingeniero multimedia egresado de la una universidad autónoma de occidente, durante mi época de estudiante me llego a interesar mucho las tecnologías web como son HTML, CSS y JavaScript de lado de cliente y herramientas como Node JS del lado del servidor, esto unido a la creación de contenidos interactivos, me a motivado a continuar con la continua búsqueda de tecnologías para lograr los retos que se me proponen, por lo que e llegado a ser una persona adaptable, permitiendo moverme entre herramientas con una buena base lógica."
+        description={`Soy un ingeniero multimedia egresado de la universidad autónoma de occidente, durante mi época de estudiante me intereso mucho las tecnologías web como son HTML, CSS y 
+        JavaScript de lado de cliente y herramientas como Node JS y Go del lado del servidor, esto unido a la creación de contenidos interactivos, me ha motivado a continuar con la continua búsqueda de
+         tecnologías para lograr los retos que se me proponen, por lo que he llegado a ser una persona adaptable, permitiendo moverme entre herramientas con una buena base lógica.`}
         position="Web Developer"
       />
       {/*Second section */}
