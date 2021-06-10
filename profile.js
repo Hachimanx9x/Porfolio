@@ -110,5 +110,13 @@ export const Projects_general = [
     demo: "https://youtu.be/HBnqadj-tB0",
     github: "",
   },
+  {
+    name: "Blog en tailwindcss",
+    description:
+      "ejemplo basico del uso de tailwindcss para la creacion de una pgina responsive",
+    image: "Captura.jpeg",
+    demo: "",
+    github: "https://github.com/Hachimanx9x/test-tailwindcss",
+  },
 ];
 //

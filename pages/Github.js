@@ -22,35 +22,42 @@ export default function Github({ user, statusCode }) {
     );
   }
   return (
-    <Layout footer={false} dark={true} title="Conoceme">
-      <div className="row">
-        <div className="col-md-4 offset-md-4">
-          <div className="card card-body text-center">
-            <h1>{user.login}</h1>
-            <img src={user.avatar_url} alt="foto_perfil" />
-            <p>{user.bio}</p>
-            {user.blog !== "" ? (
+    <div className="o-contact">
+      <Layout footer={false} dark={true} title="Conoceme">
+        <div className="row o-contact">
+          <div className="col-md-4 offset-md-4">
+            <div className="card card-body text-center">
+              <h1>{user.login}</h1>
+              <img src={user.avatar_url} alt="foto_perfil" />
+              <p>{user.bio}</p>
+              {user.blog !== "" ? (
+                <a
+                  href={user.blog}
+                  target="_blank"
+                  className="btn btn-outline-secondary my-2"
+                >
+                  Mi blog
+                </a>
+              ) : (
+                ""
+              )}
               <a
-                href={user.blog}
+                href={user.html_url}
                 target="_blank"
                 className="btn btn-outline-secondary my-2"
               >
-                Mi blog
+                Mi Github
               </a>
-            ) : (
-              ""
-            )}
-            <a
-              href={user.html_url}
-              target="_blank"
-              className="btn btn-outline-secondary my-2"
-            >
-              Mi Github
-            </a>
+            </div>
           </div>
         </div>
-      </div>
-    </Layout>
+      </Layout>
+      <style jsx>{`
+        .o-contact {
+          height: 100vh;
+        }
+      `}</style>
+    </div>
   );
 }
 /**

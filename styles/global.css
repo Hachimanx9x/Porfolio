@@ -23,11 +23,11 @@
   }
 }
 @media screen and (min-width: 970px) {
-  body,
+  /*  body,
   html,
   body > first-child,
   div#__next,
   div#__next > div {
     height: 100%;
-  }
+  }*/
 }
