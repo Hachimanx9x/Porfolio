@@ -34,7 +34,7 @@ export default function Header({ img, name, description, position }) {
                 >
                   <img style={{ maxHeight: "1.3rem" }} src="images/email.svg" />
                   {"  "}
-                  bolanosd39@gmail.com
+                  bolanosd38@gmail.com
                 </p>
               </div>
             </div>
