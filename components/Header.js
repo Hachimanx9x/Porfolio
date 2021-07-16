@@ -7,7 +7,7 @@ export default function Header({ img, name, description, position }) {
             <div className="col-md-4 d-flex align-items-center justify-content-center">
               <img
                 className="img-fluid"
-                src={`/www.linkedin.com/in/diego-fernando-bolaños-palma-6a536720b/${img}`}
+                src={`/images/${img}`}
                 alt="foto"
                 style={{ maxHeight: "250px", minWidth: "125px" }}
               />
