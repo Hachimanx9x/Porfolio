@@ -22,7 +22,7 @@ function CardGithub({ user }) {
           <div className="o-card">
             <div className="o-card__header">
               <h1>{user.login}</h1>
-              <img className="o-img" src={user.avatar_url} alt="foto_perfil" />
+              <img className="w-100" src={user.avatar_url} alt="foto_perfil" />
             </div>
             <div className="o-card__info">
               <p>{user.bio}</p>
@@ -81,7 +81,7 @@ function CardMy() {
             <div className="o-card__header">
               {" "}
               <h1>Diego Bolaños</h1>
-              <img className="o-img" src="/images/foto.png" alt="foto_perfil" />
+              <img className="w-100" src="/images/foto.png" alt="foto_perfil" />
             </div>
             <div className="o-card__info">
               {" "}
@@ -106,7 +106,7 @@ function CardMy() {
         }
 
         .o-img {
-          height: 382px;
+          width: 100%;
         }
         .o-card {
           display: flex;
@@ -145,6 +145,11 @@ export default function Github({ user, statusCode }) {
           height: 100vh;
           display: flex;
           justify-content: space-around;
+        }
+        @media screen and (max-width: 960px) {
+          .o-contact {
+            height: 100%;
+          }
         }
       `}</style>
     </>

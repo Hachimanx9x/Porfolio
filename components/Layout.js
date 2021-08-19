@@ -45,7 +45,7 @@ export default function Layout({
             <p> 2020 - {new Date().getFullYear()}</p>
             <div
               className="d-flex justify-content-around"
-              style={{ maxWidth: "500px", minWidth: "400px" }}
+              style={{ maxWidth: "500px", minWidth: "350px" }}
             >
               <p
                 className="d-flex justify-content-around "
@@ -57,7 +57,7 @@ export default function Layout({
               </p>
               <p
                 className="d-flex justify-content-around "
-                style={{ maxWidth: "200px", minWidth: "195px" }}
+                style={{ maxWidth: "200px", minWidth: "185px" }}
               >
                 <img style={{ maxHeight: "1.3rem" }} src="images/email.svg" />
                 {"  "}
